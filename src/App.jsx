@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Saturn from './pages/Saturn';
+import Mars from './pages/mars';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/saturn" element={<Saturn />} />
+        <Route path="/Mars" element={<Mars />} />
       </Routes>
     </BrowserRouter>
   )
