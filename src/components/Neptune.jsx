@@ -26,7 +26,7 @@ const Neptune = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/330px-The_Blue_Marble_%28remastered%29.jpg" alt="Earth" />
+                <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/3c/96/11/3c961145db8f60b5a286f676e3822bf0.gif" alt="Neptune" alt="Earth" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                     
                     Neptune is the eighth and farthest known planet from the Sun in our solar system.
