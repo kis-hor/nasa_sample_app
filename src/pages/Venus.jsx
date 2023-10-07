@@ -41,7 +41,7 @@ const Venus = () => {
                 <ul className="text-left list-disc text-white">
                 <li>Mass:  Venus has a mass of approximately 4.87 x 10^24 kilograms, making it the second-largest terrestrial (rocky) planet in our solar system, after Earth.</li>
                 <li>Surface:  Venus is known for its harsh and inhospitable surface. It is covered in thick clouds of sulfuric acid, which create a yellowish appearance. The planet's surface is extremely hot, with temperatures that can exceed 900 degrees Fahrenheit (475 degrees Celsius), making it the hottest planet in our solar system due to its thick greenhouse atmosphere.</li>
-                <li>Atmosphere:enus has a dense and predominantly carbon dioxide (CO2) atmosphere with traces of other gases. It experiences extreme surface pressure, which is approximately 92 times greater than Earth's surface pressure. The thick atmosphere traps heat, contributing to its scorching surface temperatures.</li>
+                <li>Atmosphere: Venus has a dense and predominantly carbon dioxide (CO2) atmosphere with traces of other gases. It experiences extreme surface pressure, which is approximately 92 times greater than Earth's surface pressure. The thick atmosphere traps heat, contributing to its scorching surface temperatures.</li>
                 <li>Climate: Venus has a harsh and inhospitable climate due to its thick atmosphere and extreme surface temperatures. The planet experiences constant cloud cover, with sulfuric acid clouds reflecting sunlight back into space.</li>
                 <li>Human Population: Due to its extreme surface conditions, Venus is considered one of the least likely places to find life in our solar system. The planet's surface is not conducive to the existence of life as we know it.</li>
                 </ul>
@@ -50,7 +50,7 @@ const Venus = () => {
 
         <div className="px-32 bg-black">
 
-            <h1 class="text-3xl text-center text-white mt-9 pb-5 justify-center">Satellite of Venus: Moon</h1>
+            <h1 class="text-3xl text-center text-white mt-9 pb-5 justify-center">Satellite of Venus</h1>
             <p className="text-white">Venus, Earth's "sister" planet, is notable for being the only planet in our solar system that doesn't have any natural moons or satellites. Unlike Earth, which has one large natural satellite (the Moon) and other planets like Mars, Jupiter, and Saturn that boast multiple moons, Venus orbits the Sun without any companions in its vicinity.
               The absence of moons around Venus has intrigued scientists and astronomers. While the exact reasons for Venus's lack of moons remain a subject of study and debate, several factors could contribute to this phenomenon.</p>
         </div>
