@@ -28,9 +28,6 @@ const Jupiter = () => {
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jupiter.gif" alt="Jupiter" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    Jupiter is the biggest planet in our Solar System.
-                  </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                   Jupiter is the largest planet in our solar system, known for its immense size, rapid rotation, and iconic cloud bands. 
                   It has no solid surface and is primarily composed of hydrogen and helium. 
                   Jupiter's atmosphere features the famous Great Red Spot, a massive storm, and it is orbited by numerous moons, 

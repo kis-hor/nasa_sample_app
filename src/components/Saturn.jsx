@@ -32,14 +32,18 @@ const Saturn = () => {
                     <p className="p-4">Saturn is the sixth planet from the sun and the second-largest planet in the solar system. It has a whopping 145 moons. 
                     It's the farthest planet from Earth that's visible to the unaided eye, but the planet's most outstanding features — its rings — are better viewed through a telescope. 
                     Although the other gas giants in the solar system — Jupiter, Uranus and Neptune —  also have rings, Saturn's rings are particularly prominent, earning it the nickname the "<b>Ringed Planet.</b>"</p>
+                    <h1 className="text-3xl text-bold mb-3">Saturn</h1>
 
                     <ul className="p-4">
                     <li><b>Radius of Planet:</b> It's radius is 58,232 km. It is 9 times wider than the earth.</li>
+                    <li><b>Diameter of Planet:</b> It's diameter is 120,536 kilometers. It is 9 times wider than the earth.</li>
                     <li><b>Distance From Sun:</b> It's distance from the sun is 1.4588 billion km, 9.5 astronomical units away from the Sun.</li>
                     <li><b>Surface Temperature:</b> The surface temperature of Saturn is -288 degrees Fahrenheit (- 178 degree celsius).</li>
+                    <li><b>Surface features</b>: Saturn is known for its stunning and intricate ring system, composed of countless individual rings made of ice and rock particles.</li>
                     <li><b>Rotation:</b> The Saturn takes 10.7 hours to complete one rotation.</li>
                     <li><b>Orbit:</b> The Saturn makes complete orbit around the sun in about 29.4 Earth Years.</li>
                     <li><b>Atmosphere:</b> Saturn's atmosphere is mostly hydrogen and helium.</li>
+                    <li><b>Exploration:</b>Saturn has been studied by various spacecraft, with NASA's Cassini-Huygens mission being one of the most significant.</li>
                     </ul>
 
                     

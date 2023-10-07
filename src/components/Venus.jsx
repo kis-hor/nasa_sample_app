@@ -28,9 +28,6 @@ const Venus = () => {
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/VenusDonMiguel.gif?20080803041934" alt="Venus" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                  Venus is the second planet from the Sun and is the brightest planet in the solar system
-                  </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                   Venus is one of the four terrestrial planets in the Solar System, meaning that it is a rocky body like Earth.
                   It is similar to Earth in size and mass and is often described as Earth's "sister" or "twin". Venus is close to spherical due to its slow rotation.
                   As Venus is the hottest planet in the solar system, it has an active surface, including volcanoes. </p>
