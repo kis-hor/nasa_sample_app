@@ -28,13 +28,15 @@ const Saturn = () => {
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/eb/24/09/eb2409fa11b564c90d109813b8cd9533.gif" alt="Saturn" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                  <ul>
-                    <p className="p-4">Saturn is the sixth planet from the sun and the second-largest planet in the solar system. It has a whopping 145 moons. 
+                  <ul className="p-4">
+                    <p>Saturn is the sixth planet from the sun and the second-largest planet in the solar system. It has a whopping 145 moons. 
                     It's the farthest planet from Earth that's visible to the unaided eye, but the planet's most outstanding features — its rings — are better viewed through a telescope. 
                     Although the other gas giants in the solar system — Jupiter, Uranus and Neptune —  also have rings, Saturn's rings are particularly prominent, earning it the nickname the "<b>Ringed Planet.</b>"</p>
-                    <h1 className="text-3xl text-bold mb-3">Saturn</h1>
+                    
 
-                    <ul className="p-4">
+                    <h1 className="text-2xl text-bold mt-3">Saturn</h1>
+
+                    <ul className="pt-4">
                     <li><b>Radius of Planet:</b> It's radius is 58,232 km. It is 9 times wider than the earth.</li>
                     <li><b>Diameter of Planet:</b> It's diameter is 120,536 kilometers. It is 9 times wider than the earth.</li>
                     <li><b>Distance From Sun:</b> It's distance from the sun is 1.4588 billion km, 9.5 astronomical units away from the Sun.</li>
@@ -43,10 +45,8 @@ const Saturn = () => {
                     <li><b>Rotation:</b> The Saturn takes 10.7 hours to complete one rotation.</li>
                     <li><b>Orbit:</b> The Saturn makes complete orbit around the sun in about 29.4 Earth Years.</li>
                     <li><b>Atmosphere:</b> Saturn's atmosphere is mostly hydrogen and helium.</li>
-                    <li><b>Exploration:</b>Saturn has been studied by various spacecraft, with NASA's Cassini-Huygens mission being one of the most significant.</li>
+                    <li><b>Exploration:</b> Saturn was the most distant of the five planets known to the ancients. In 1610, Italian astronomer Galileo Galilei was the first to gaze at Saturn through a telescope. </li>
                     </ul>
-
-                    
                     {/* <li><strong>--- Saturn Discovery</strong></li>
                     <p>Saturn has been known since ancient times and was observed by cultures all over the world. The planet is visible with the naked eye and to ancient cultures, appeared as a bright light shifting among the stars. There are numerous names and mythologies associated with the planet.
                     The International Astronomical Union, which is the body that represents astronomers around the world, chose the name Saturn to represent the planet. Saturn is associated with the Roman god of agriculture.
@@ -58,13 +58,7 @@ const Saturn = () => {
                     The Ringed Planet is the least dense of all the planets and is the only one less dense than water. 
                     If there were a bathtub big enough to hold it, Saturn would float.The yellow and gold bands seen in Saturn's atmosphere are the result of superfast winds in the upper atmosphere, which can reach up to <b>1,100 mph (1,800 km/h)</b> around its equator, combined with heat rising from the planet's interior.
                     Saturn rotates about once every <b>10.5</b> hours. The planet's high-speed spin causes Saturn to bulge at its equator and flatten at its poles. The planet is around <b>75,000 miles (120,000 kilometers)</b> across at its equator, and <b>68,000 miles (109,000 km)</b> from pole to pole. </p> */}
-
                   </ul>
-
-
-                  </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    
                   </p>
                 </div>
                 <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
