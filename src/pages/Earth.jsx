@@ -50,7 +50,7 @@ const Earth = () => {
             <li>Some examples of natural satellites are planets, moons, and comets. Jupiter has 67 natural satellites. The earth has one permanent natural satellite, the moon we know, which causes the tides in the sea. Sometimes other objects (like asteroids) can enter into temporary orbits of the earth and become a natural satellite for a span.</li>
             <li>Apart from these, the earth has many man-made satellites that are placed in the orbit and are used for different applications in communications and information gathering. As the term itself states, an artificial satellite is one that is put in our space by human efforts and follows the orbit of natural satellites.</li>
             <li>Since they have a very large view field, they can collect data a lot faster than instruments that can be used at ground level. Apart from this, their view into space beyond earth is not blocked by clouds, dust, and other obscurities, due to which a satellite can view space a lot more efficiently than telescopes on earth.</li>
-            <img className="mx-auto pt-7 rounded-[50px]" width={"60%"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTavlYWY5W55iH-iEe_Bes1Lx62MdvH4vDnjA&usqp=CAU" alt="Satellite"/>
+            <img className="mx-auto mt-7 rounded-[50px]" width={"60%"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTavlYWY5W55iH-iEe_Bes1Lx62MdvH4vDnjA&usqp=CAU" alt="Satellite"/>
 
             <h1 class="text-3xl text-center text-red-300 mt-9 pb-5">Types of Satellites:</h1>
             <h2 class="text-2xl mt-9 pb-5 text-red-300">Geostationary Satellite:</h2>
@@ -60,7 +60,7 @@ const Earth = () => {
 
             <h1 class="text-3xl text-center text-red-300 mt-9 pb-5">Satellite of Earth: Moon</h1>
             <p>The Moon is Earth's only natural satellite. It orbits around Earth at an average distance of 384400 km (238900 mi; 1.28 ls), or about 30 times Earth's diameter. The Moon faces Earth always with its near side by having a rotation period that equals its orbital period, resulting from being tidally locked to Earth. This period is in relation to the Sun 29.5 days long and visible as the cycle of the lunar phases. For Earth, the Moon has been aside from the Sun the most influential celestial object, particularly with its gravitational influence it has been the main driver of Earth's tides.</p>
-            <img className="mx-auto pt-9 rounded-lg" width={"40%"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAhaGdVIBqigI7lTwv2C3w_GEiBNNJa_1D8uu-peYHytLV6NqAZE4OyeyHB5mMJGPf1g&usqp=CAU" alt="Moon"/>
+            <img className="mx-auto mt-9 rounded-lg" width={"40%"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAhaGdVIBqigI7lTwv2C3w_GEiBNNJa_1D8uu-peYHytLV6NqAZE4OyeyHB5mMJGPf1g&usqp=CAU" alt="Moon"/>
         </div>
 
         <div>
