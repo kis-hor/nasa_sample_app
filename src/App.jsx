@@ -62,7 +62,7 @@ function App() {
         </nav>
       </header>
       <br />
-      <div className="grid grid-cols-3 gap-4 lg:p-12 p-6">
+      <div className="grid grid-cols-3 gap-4 lg:p-12 p-6 bg-black">
       {/* Mercury  Planet*/}
       <Mercury />
         {/* Mercury  Planet*/}

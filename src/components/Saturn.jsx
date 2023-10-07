@@ -8,7 +8,7 @@ const Saturn = () => {
     }
 
     return(
-        <div className="border-4 h-64  bg-black" onClick={toggleShow}>
+        <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
         <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/eb/24/09/eb2409fa11b564c90d109813b8cd9533.gif" alt="Saturn" />
           <span className="flex items-center justify-center text-white">Saturn</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
@@ -27,8 +27,8 @@ const Saturn = () => {
                 </div>
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/eb/24/09/eb2409fa11b564c90d109813b8cd9533.gif" alt="Saturn" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                  <ul className="p-4">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 justify-center">
+                  <ul className="p-4 justify-center">
                     <p>Saturn is the sixth planet from the sun and the second-largest planet in the solar system. It has a whopping 145 moons. 
                     It's the farthest planet from Earth that's visible to the unaided eye, but the planet's most outstanding features — its rings — are better viewed through a telescope. 
                     Although the other gas giants in the solar system — Jupiter, Uranus and Neptune —  also have rings, Saturn's rings are particularly prominent, earning it the nickname the "<b>Ringed Planet.</b>"</p>
