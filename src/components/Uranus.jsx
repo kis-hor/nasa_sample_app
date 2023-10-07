@@ -13,7 +13,7 @@ const Uranus = () => {
         <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Uranus.gif" alt="Uranus" />
           <span className="flex items-center justify-center text-white">Uranus</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
-            <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto mt-48">
+            <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
               <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
