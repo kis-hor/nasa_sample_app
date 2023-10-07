@@ -27,10 +27,10 @@ const Mars = () => {
                 </div>
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/a6/90/27/a69027eb077be2f6a45399adf6f7bbac.gif" alt="Earth" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     Mars is the fourth planet from the sun in our solar system and is often reffered tos as the "Red planet" due to it's reddish appearence, which is caused by iron oxide(rust) on it's surface.
                   </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <title>Mars Information</title>
                     <h1 className="text-3xl text-bold mb-3">Mars</h1>
                     <ul>

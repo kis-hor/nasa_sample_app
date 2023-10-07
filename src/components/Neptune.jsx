@@ -26,12 +26,12 @@ const Neptune = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/3c/96/11/3c961145db8f60b5a286f676e3822bf0.gif" alt="Neptune" alt="Earth" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/3c/96/11/3c961145db8f60b5a286f676e3822bf0.gif" alt="Neptune" />
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     
-                    Neptune is the eighth and farthest known planet from the Sun in our solar system.
+                    Neptune is the eighth and farthest known planet from the Sun in our solar system. It is also an icy giant characterized by its stunning blue hue due to methane in its atmosphere. Neptune has a thick atmosphere which features a rapid rotation, completing one day in approximately 16 hours. Additionly, Neptune remains a distant and mysterious world awaiting further exploration.
                   </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <title>Neptune Information</title>
                     <h1 className="text-3xl text-bold mb-3">Neptune</h1>
                     <ul>
