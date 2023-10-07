@@ -26,7 +26,7 @@ const Mercury = () => {
                 </button>
               </div>
               <div className="p-6 space-y-6">
-              <img className="object-cover h-56 w-auto mx-auto" src="https://i2-prod.mirror.co.uk/news/technology-science/science/article5595179.ece/ALTERNATES/s1227b/0_MERCURY1.jpg" alt="Earth" />
+              <img className="object-cover h-56 w-auto mx-auto" src="https://media3.giphy.com/media/l0HlO4V8iCRME3i0g/200w.gif?cid=6c09b952dyserchlfhotjb3fdbrihr70aj9i6fsauy21vxc7&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Earth" />
                 <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                   Mercury, the innermost planet of our solar system, is a small, rocky world with a radius of approximately 2,439.7 kilometers. Unlike many other planets, Mercury has no natural moons. It has been the subject of exploration by spacecraft like Mariner 10 and MESSENGER, offering valuable insights into this intriguing world.
                 </p>
