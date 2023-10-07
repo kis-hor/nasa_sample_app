@@ -27,12 +27,12 @@ const Jupiter = () => {
                 </div>
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jupiter.gif" alt="Jupiter" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Jupiter is the largest planet in our solar system, known for its immense size, rapid rotation, and iconic cloud bands. 
                   It has no solid surface and is primarily composed of hydrogen and helium. 
                   Jupiter's atmosphere features the famous Great Red Spot, a massive storm, and it is orbited by numerous moons, 
                   including the largest moon in the solar system, Ganymede. </p>
-                    <p  className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    <p  className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl text-bold mb-3">Jupiter</h1>
                   <ul>
                     <li><strong>Radius of Planet </strong> :  Jupiter has a radius of approximately 69,911 kilometers, making it the largest planet in our solar system.</li>

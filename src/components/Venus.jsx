@@ -27,11 +27,11 @@ const Venus = () => {
                 </div>
                 <div className="p-6 space-y-6">
                 <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/VenusDonMiguel.gif?20080803041934" alt="Venus" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Venus is one of the four terrestrial planets in the Solar System, meaning that it is a rocky body like Earth.
                   It is similar to Earth in size and mass and is often described as Earth's "sister" or "twin". Venus is close to spherical due to its slow rotation.
                   As Venus is the hottest planet in the solar system, it has an active surface, including volcanoes. </p>
-                  <p  className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  <p  className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl text-bold mb-3">Venus</h1>
                   <ul>
                     <li><strong>Radius of Planet </strong> : Venus has a radius of approximately 6,052 kilometers.</li>
