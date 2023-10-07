@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Earth = () => {
   const navigate = useNavigate();
     const [show, setShow] = useState(false);
-
+  
     const toggleShow = () => {
         setShow(!show)
     }
