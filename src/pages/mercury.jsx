@@ -37,7 +37,7 @@ const Mercury = () => {
         <>
         <Header/>
         <header>
-            <h1 className="bg-green-200 text-black"><marquee behavior="scroll" direction="left"><bold>The planet where it's so hot you'll melt, and so cold you'll freeze-The ultimate weather rollercoaster of the solar system.</bold></marquee></h1>
+            <h1 className="bg-green-200 text-black mt-5"><marquee behavior="scroll" direction="left"><bold>The planet where it's so hot you'll melt, and so cold you'll freeze-The ultimate weather rollercoaster of the solar system.</bold></marquee></h1>
         </header>
         <div className="container text-center w-[100vw] mx-auto ">
             <h2 className="py-5 text-2xl text-red-300"><strong>About mercury</strong></h2>
