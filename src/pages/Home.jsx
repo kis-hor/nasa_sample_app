@@ -1,3 +1,14 @@
+import Header from "../components/Header";
+import Earth from '../components/Earth';
+import Venus from '../components/Venus';
+import Mercury from '../components/Mercury';
+import Jupiter from '../components/Jupiter';
+import Saturn from '../components/Saturn';
+import Neptune from '../components/Neptune';
+import Mars from '../components/Mars';
+import Uranus from '../components/Uranus';
+import Footer from '../components/Footer';
+
 const Home = () => {
     return (
         <>
