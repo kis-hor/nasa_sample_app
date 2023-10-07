@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Earth = () => {
+  const navigate = useNavigate();
     const [show, setShow] = useState(false);
-
+  
     const toggleShow = () => {
         setShow(!show)
     }
@@ -26,7 +28,7 @@ const Earth = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://media1.giphy.com/media/X6hiFJjvTDAAw/giphy.gif" alt="Earth" />
+                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Earth.gif" alt="Earth" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify"> 
                   Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water.Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's surface. The remaining 29.2% of Earth's surface is land, most of which is located in the form of continental landmasses within one hemisphere, Earth's land hemisphere.
                   </p>
@@ -47,6 +49,8 @@ const Earth = () => {
                 </div>
                 <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                   <button data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-red-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-gray-600">Cancel</button>
+                  
+                  <button onClick={() => navigate("/Earth")} data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-blue-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-gray-600">View More</button>
               </div>
             </div>
           </div>

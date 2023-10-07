@@ -8,6 +8,23 @@
   width: 100%;
 }
 
+@font-face {
+  font-family: "Barlow Light";
+  src: url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+}
+
+.barlow-light {
+  font-family: "Barlow Light";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

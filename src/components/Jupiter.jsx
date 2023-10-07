@@ -1,6 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 const Jupiter = () => {
+
+    const navigate = useNavigate();
     const [show, setShow] = useState(false);
 
     const toggleShow = () => {
@@ -9,7 +12,7 @@ const Jupiter = () => {
 
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jupiter.gif" alt="Jupiter" />
+        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Jupiter.gif" alt="Jupiter" />
           <span className="flex items-center justify-center text-white">Jupiter</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
@@ -26,7 +29,7 @@ const Jupiter = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jupiter.gif" alt="Jupiter" />
+                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Jupiter.gif" alt="Jupiter" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Jupiter is the largest planet in our solar system, known for its immense size, rapid rotation, and iconic cloud bands. 
                   It has no solid surface and is primarily composed of hydrogen and helium. 
@@ -49,6 +52,7 @@ const Jupiter = () => {
                 </div>
                 <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                   <button data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-red-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-gray-600">Cancel</button>
+                  <button onClick={() => navigate("/jupiter")} data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-blue-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-gray-600">View More</button>
               </div>
             </div>
           </div>
