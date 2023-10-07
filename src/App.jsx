@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/saturn" element={<Saturn />} />
-        <Route path="/Mars" element={<Mars />} />
+        <Route path="/mars" element={<Mars />} />
         <Route path="/venus" element={<Venus />} />
         <Route path="/uranus" element={<Uranus />} />
         <Route path="/neptune" element={<Neptune />} />
