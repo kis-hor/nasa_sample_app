@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Saturn from './pages/Saturn';
+import Mars from './pages/mars';
 import Venus from './pages/Venus';
 import Neptune from './pages/Neptune';
 import Uranus from './pages/Uranus';
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/saturn" element={<Saturn />} />
+        <Route path="/Mars" element={<Mars />} />
         <Route path="/venus" element={<Venus />} />
         <Route path="/uranus" element={<Uranus />} />
         <Route path="/neptune" element={<Neptune />} />
