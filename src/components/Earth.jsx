@@ -26,12 +26,12 @@ const Earth = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/330px-The_Blue_Marble_%28remastered%29.jpg" alt="Earth" />
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                <img className="object-cover h-56 w-auto mx-auto" src="https://media1.giphy.com/media/X6hiFJjvTDAAw/giphy.gif" alt="Earth" />
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify"> 
                   Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water.Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's surface. The remaining 29.2% of Earth's surface is land, most of which is located in the form of continental landmasses within one hemisphere, Earth's land hemisphere.
                   </p>
-                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    <h1 className="text-3xl mb-3">EARTH</h1>
+                  <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
+                    <h1 className="text-3xl mb-3">Earth</h1>
                     <ul>
                       <li><strong>Radius of Earth:</strong> The Radius of Earth is 6371 km.</li>
                       <li><strong>Diameter of Earth:</strong> The Diameter of Earth is 12742 km.</li>
