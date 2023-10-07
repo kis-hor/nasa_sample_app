@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 const Mars = () => {
   const navigate = useNavigate();
@@ -10,8 +10,8 @@ const Mars = () => {
     }
     
     return(
-        <div className="border-4 h-64  bg-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/a6/90/27/a69027eb077be2f6a45399adf6f7bbac.gif" alt="Mars" />
+        <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
+        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Mars.gif" alt="Mars" />
           <span className="flex items-center justify-center text-white">Mars</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto ">
@@ -28,7 +28,7 @@ const Mars = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://i.pinimg.com/originals/a6/90/27/a69027eb077be2f6a45399adf6f7bbac.gif" alt="Earth" />
+                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Mars.gif" alt="Mars" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     Mars is the fourth planet from the sun in our solar system and is often reffered tos as the "Red planet" due to it's reddish appearence, which is caused by iron oxide(rust) on it's surface.
                   </p>
@@ -38,7 +38,7 @@ const Mars = () => {
                     <ul>
                       <li><strong>Radius:</strong>Approximately 3,389.5kilometers</li>
                       <li><strong>Distance from the Sun:</strong>Average distance about 227.9 million kilometer</li>
-                      <li><strong>Diameter:</strong>Approximately 6,779 kilometers</li>
+                      <li><strong>Diamter:</strong>Approximately 6,779 kilometers</li>
                       <li><strong>Surface Temperature:</strong>Around -62&deg;celcius</li>
                       <li><strong>Surface Feature:</strong>Mars is known for its diverse surface features, including vast canyons like Valles Marineris, the largest volcano in the solar system, Olympus Mons, and evidence of ancient river valleys and polar ice caps.</li>
                       <li><strong>Rotation:</strong>Approximately 24 hours, 39 minutes and 35.244 second</li>
@@ -50,7 +50,7 @@ const Mars = () => {
                 </div>
                 <div className="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                   <button data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-red-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-gray-600">Cancel</button>
-                  <button onClick={() => navigate("/Mars")} data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-blue-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-gray-600">View More</button>
+                  <button onClick={() => navigate("/mars")} data-modal-hide="defaultModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-blue-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-gray-600">View More</button>
               </div>
             </div>
           </div>
