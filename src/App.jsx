@@ -61,7 +61,7 @@ function App() {
           </div>
         </nav>
       </header>
-      <br />
+  
       <div className="grid grid-cols-3 gap-4 lg:p-12 p-6 bg-black">
       {/* Mercury  Planet*/}
       <Mercury />
@@ -95,10 +95,7 @@ function App() {
       {/* Uranus  Planet*/}
       <Uranus />  
         {/* Uranus  Planet*/}
-        <div className="border-4 h-64  bg-black">
-
-        </div>
-
+        
       </div>
 
       <footer class="bg-white shadow dark:bg-gray-800 w-full">

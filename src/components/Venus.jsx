@@ -9,7 +9,7 @@ const Venus = () => {
 
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/VenusDonMiguel.gif?20080803041934" alt="Venus" />
+        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Venus.gif" alt="Venus" />
           <span className="flex items-center justify-center text-white">Venus</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
@@ -26,7 +26,7 @@ const Venus = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/VenusDonMiguel.gif?20080803041934" alt="Venus" />
+                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Venus.gif" alt="Venus" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Venus is one of the four terrestrial planets in the Solar System, meaning that it is a rocky body like Earth.
                   It is similar to Earth in size and mass and is often described as Earth's "sister" or "twin". Venus is close to spherical due to its slow rotation.

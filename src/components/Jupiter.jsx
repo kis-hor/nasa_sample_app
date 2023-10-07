@@ -8,7 +8,7 @@ const Jupiter = () => {
     }
 
     return (
-        <div className="border-4 h-64  bg-black" onClick={toggleShow}>
+        <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
         <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Jupiter.gif" alt="Jupiter" />
           <span className="flex items-center justify-center text-white">Jupiter</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>

@@ -8,8 +8,8 @@ const Mercury = () => {
     }
 
     return (
-      <div className="border-4 h-64 bg-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="https://media3.giphy.com/media/l0HlO4V8iCRME3i0g/200w.gif?cid=6c09b952dyserchlfhotjb3fdbrihr70aj9i6fsauy21vxc7&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Earth" />
+      <div className="border-4 h-64 bg-black border-black" onClick={toggleShow}>
+        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Mercury.gif" alt="Mercury" />
         <span className="flex items-center justify-center text-white">Mercury</span>
         <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
           <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
@@ -26,7 +26,7 @@ const Mercury = () => {
                 </button>
               </div>
               <div className="p-6 space-y-6">
-              <img className="object-cover h-56 w-auto mx-auto" src="https://media3.giphy.com/media/l0HlO4V8iCRME3i0g/200w.gif?cid=6c09b952dyserchlfhotjb3fdbrihr70aj9i6fsauy21vxc7&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Earth" />
+              <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Mercury.gif" alt="Mercury" />
                 <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Mercury, the innermost planet of our solar system, is a small, rocky world with a radius of approximately 2,439.7 kilometers. Unlike many other planets, Mercury has no natural moons. It has been the subject of exploration by spacecraft like Mariner 10 and MESSENGER, offering valuable insights into this intriguing world.
                 </p>
