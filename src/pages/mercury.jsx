@@ -1,6 +1,8 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,6 +12,27 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Mercury = () => {
+    const [images, setImages] = useState([]);
+  
+    useEffect(() => {
+      // Define the NASA Images API URL
+      const apiUrl = "https://images-api.nasa.gov/search?q=mercury";
+  
+      // Make a GET request to the API
+      axios.get(apiUrl)
+        .then((response) => {
+          // Extract the relevant data from the API response
+          const data = response.data.collection.items;
+  
+          // Set the fetched data in the state
+          setImages(data);
+          // console.log(images)
+        })
+        .catch((error) => {
+          console.error("An error occurred while fetching data:", error);
+        });
+    }, []);
+    
     return (
         <>
         <Header/>
@@ -57,6 +80,21 @@ const Mercury = () => {
                 <li>It has extreme temperature variations, with daytime temperatures reaching up to 800°F (427°C) and nighttime temperatures dropping to -279°F (-173°C).</li>
             </ul>
             <h5>Latest Imagery</h5>
+            <div className="grid grid-cols-3 gap-4 lg:p-12 p-6 bg-black">
+            {images.map((item, index) => (
+                (item.links !== undefined) ? (
+                    <div>
+                    <img
+                    key={index}
+                    src={item.links[0].href}
+                    alt={`Earth Image ${index}`}
+                    style={{ width: "300px", height: "300px", margin: "10px" }}
+                    />
+                    <div className="text-white flex justify-center">{item.data[0].title}</div>
+                    </div>
+                ) : null
+            ))}
+        </div>
         </div>
         <Footer />
         </>
