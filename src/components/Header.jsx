@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <>
-        <header className="fixed w-full">
+        <header className="fixed w-full z-10">
             <nav className="bg-gray-900 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-black">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="/" className="flex items-center">
