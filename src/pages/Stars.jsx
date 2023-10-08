@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Rigel from "../components/Rigel";
 import Sirius from "../components/Sirius";
 import Lacerta from "../components/Lacerta";
+import Arcturus from "../components/Arcturus";
 
 const Stars = () => {
     return (

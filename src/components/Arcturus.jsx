@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Sirius = () => {
+const Arcturus = () => {
   const navigate = useNavigate();
     const [show, setShow] = useState(false);
   
@@ -12,7 +12,7 @@ const Sirius = () => {
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
         <img className="object-cover h-56 w-auto mx-auto" src="https://th.bing.com/th/id/R.e28d16aa06ebc6926ee856532c5f865b?rik=Zyfunj3BdQkARQ&pid=ImgRaw&r=0" alt="Arcturus" />
-          <span className="flex items-center justify-center text-white">Sirius</span>
+          <span className="flex items-center justify-center text-white">Arcturus</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
               <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
