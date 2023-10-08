@@ -47,11 +47,9 @@ const Venus = () => {
                 </ul>
             </div>
         </div>
-
-        <div className="px-32">
-
-            <h1 class="text-3xl text-center text-red-300 mt-9 pb-5 justify-center">Satellite of Venus</h1>
-            <p>Venus, Earth's "sister" planet, is notable for being the only planet in our solar system that doesn't have any natural moons or satellites. Unlike Earth, which has one large natural satellite (the Moon) and other planets like Mars, Jupiter, and Saturn that boast multiple moons, Venus orbits the Sun without any companions in its vicinity.
+        <div className="px-32 bg-black">
+            <h1 class="text-3xl text-center text-white pb-10 pt-10 justify-center">Satellite of Venus</h1>
+            <p className="text-white">Venus, Earth's "sister" planet, is notable for being the only planet in our solar system that doesn't have any natural moons or satellites. Unlike Earth, which has one large natural satellite (the Moon) and other planets like Mars, Jupiter, and Saturn that boast multiple moons, Venus orbits the Sun without any companions in its vicinity.
               The absence of moons around Venus has intrigued scientists and astronomers. While the exact reasons for Venus's lack of moons remain a subject of study and debate, several factors could contribute to this phenomenon.</p>
         </div>
 

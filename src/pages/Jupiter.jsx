@@ -49,10 +49,10 @@ const Jupiter = () => {
             </div>
         </div>
 
-        <div className="px-3">
+        <div className="px-16 bg-black">
 
-            <h1 class="text-3xl text-center text-red-300 mt-9 pb-5 justify-center">Satellite of Jupiter</h1>
-            <p>There are 95 moons of Jupiter with confirmed orbits as of 23 March 2023.
+            <h1 class="text-3xl text-center text-white pt-10 pb-10 justify-center">Satellite of Jupiter</h1>
+            <p className="text-white">There are 95 moons of Jupiter with confirmed orbits as of 23 March 2023.
              This number does not include a number of meter-sized moonlets thought to be shed from the inner moons, nor hundreds of possible kilometer-sized outer irregular moons that were only briefly captured by telescopes. 
              All together, Jupiter's moons form a satellite system called the Jovian system. The most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto, which were independently discovered in 1610 by Galileo Galilei and Simon Marius and were the first objects found to orbit a body that was neither Earth nor the Sun. Much more recently, beginning in 1892, dozens of far smaller Jovian moons have been detected and have received the names of lovers (or other sexual partners) or daughters of the Roman god Jupiter or his Greek equivalent Zeus. 
              The Galilean moons are by far the largest and most massive objects to orbit Jupiter, with the remaining 91 known moons and the rings together composing just 0.003% of the total orbiting mass.</p>
