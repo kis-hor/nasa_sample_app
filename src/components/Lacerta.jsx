@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Betelgeuse = () => {
+const Lacerta = () => {
   const navigate = useNavigate();
     const [show, setShow] = useState(false);
   
@@ -11,14 +11,14 @@ const Betelgeuse = () => {
 
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="https://www.universetoday.com/wp-content/uploads/2022/07/image_5156_2e-Antares.jpg" alt="Betelgeuse" />
-          <span className="flex items-center justify-center text-white">Betelgeuse</span>
+        <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/10_Lacertae_Celestia.jpg/220px-10_Lacertae_Celestia.jpg" alt="10 Lacerta" />
+          <span className="flex items-center justify-center text-white">10 Lacerta</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
               <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                    Betelgeuse
+                    10 Lacerta
                   </h3>
                   <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="defaultModal">
                     <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
@@ -28,23 +28,21 @@ const Betelgeuse = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="https://www.universetoday.com/wp-content/uploads/2022/07/image_5156_2e-Antares.jpg" alt="Betelgeuse" />
+                <img className="object-cover h-56 w-auto mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/10_Lacertae_Celestia.jpg/220px-10_Lacertae_Celestia.jpg" alt="10 Lacerta" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify"> 
-                  Betelgeuse is a prominent and intriguing star located in the constellation of Orion, approximately 642.5 light-years away from Earth. 
-                  It is one of the largest and brightest stars in our night sky, easily recognizable as the reddish-orange "shoulder" of Orion the Hunter. 
-                  Betelgeuse is a supergiant star nearing the end of its life cycle and is expected to go supernova at some point in the future, although the exact timing remains uncertain.
+                  10 Lacertae (10 Lac) is a star in the constellation Lacerta. 
+                  With an apparent magnitude of 4.9, it is located around 700 parsecs (2,300 ly) distant in the small Lacerta OB1 association. 
+                  It is a hot blue main-sequence star of spectral type O9V, a massive star that is currently fusing its core hydrogen.
                   </p>
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
-                    <h1 className="text-3xl mb-3 text-red-300">Betelgeuse</h1>
+                    <h1 className="text-3xl mb-3 text-sky-300">10 Lacerta</h1>
                     <ul>
-                      <li><strong>Constellation:</strong> Betelgeuse is located in the constellation Orion.</li>
-                      <li><strong>Diameter of Betelgeuse:</strong> Approximately, 1,000 to 1,200 times the diameter of our sun.</li>
-                      <li><strong>Distance from Earth:</strong> The Distance of Betelgeuse from earth is 642.5 light years.</li>
-                      <li><strong>Surface Temperature:</strong> The Surface temperatur of Betelgeuse is 3,500 to 3,600 degree Celsius.</li>
-                      <li><strong>Luminosity:</strong> Variable, but roughly 100,000 times more luminous than the Sun.</li>
-                      <li><strong>Age:</strong> Around 8 to 8.5 million years old.</li>
-                      <li><strong>Mass:</strong> Approximately 10 to 20 times the mass of the Sun.</li>
-                      <li><strong>Notable Characteristics:</strong> One of the largest and brightest stars in the night sky, known for its reddish-orange color; it is a red supergiant nearing the end of its life cycle and is expected to go supernova in the future.</li>
+                      <li><strong>Constellation:</strong> This star is one of the prominent star of Lacerta Constellation.</li>
+                      <li><strong>Diameter of Star:</strong> This star is massively big compared to our Sun.</li>
+                      <li><strong>Distance from Earth:</strong> The Distance of 10 Lacerta from earth is estimated to be 2,300 light years.</li>
+                      <li><strong>Surface temperature:</strong> 10 Lacerta's surface temperature is estimated to be 35727 degree Celsius</li>
+                      <li><strong>Luminosity:</strong> 10 Lacerta is a bright star as it is fusing its core hydrogen.</li>
+                      <li><strong>Age:</strong> This star was recently born but these star do not have a long lifespan.</li>
                     </ul>
                   </p>
                 </div>
@@ -58,4 +56,4 @@ const Betelgeuse = () => {
     )
 }
 
-export default Betelgeuse;
+export default Lacerta;

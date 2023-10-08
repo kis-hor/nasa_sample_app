@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Rigel from "../components/Rigel";
 import Sirius from "../components/Sirius";
+import Lacerta from "../components/Lacerta";
 
 const Stars = () => {
     return (
@@ -14,6 +15,8 @@ const Stars = () => {
                 <Rigel/>
                 <Sirius/>
                 <Arcturus/>
+
+                <Lacerta />
             </div>
             <Footer />
         </>
