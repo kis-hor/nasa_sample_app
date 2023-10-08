@@ -5,6 +5,8 @@ import Rigel from "../components/Rigel";
 import Sirius from "../components/Sirius";
 import Lacerta from "../components/Lacerta";
 import Arcturus from "../components/Arcturus";
+import Procyon from "../components/Procyon";
+import Sun from "../components/Sun";
 
 const Stars = () => {
     return (
@@ -18,6 +20,8 @@ const Stars = () => {
                 <Arcturus/>
 
                 <Lacerta />
+                <Sun/>
+                <Procyon/>
             </div>
             <Footer />
         </>
