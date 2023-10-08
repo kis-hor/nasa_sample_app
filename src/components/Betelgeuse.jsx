@@ -37,14 +37,14 @@ const Betelgeuse = () => {
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl mb-3 text-red-300">Betelgeuse</h1>
                     <ul>
-                      <li><strong>Constellation:</strong> Betelgeuse is located in the constellation Orion.</li>
-                      <li><strong>Diameter of Betelgeuse:</strong> Approximately, 1,000 to 1,200 times the diameter of our sun.</li>
-                      <li><strong>Distance from Earth:</strong> The Distance of Betelgeuse from earth is 642.5 light years.</li>
-                      <li><strong>Surface Temperature:</strong> The Surface temperatur of Betelgeuse is 3,500 to 3,600 degree Celsius.</li>
-                      <li><strong>Luminosity:</strong> Variable, but roughly 100,000 times more luminous than the Sun.</li>
-                      <li><strong>Age:</strong> Around 8 to 8.5 million years old.</li>
-                      <li><strong>Mass:</strong> Approximately 10 to 20 times the mass of the Sun.</li>
-                      <li><strong>Notable Characteristics:</strong> One of the largest and brightest stars in the night sky, known for its reddish-orange color; it is a red supergiant nearing the end of its life cycle and is expected to go supernova in the future.</li>
+                      <li className="mb-5"><strong>Constellation:</strong> Betelgeuse is located in the constellation Orion.</li>
+                      <li className="mb-5"><strong>Diameter of Betelgeuse:</strong> Approximately, 1,000 to 1,200 times the diameter of our sun.</li>
+                      <li className="mb-5"><strong>Distance from Earth:</strong> The Distance of Betelgeuse from earth is 642.5 light years.</li>
+                      <li className="mb-5"><strong>Surface Temperature:</strong> The Surface temperatur of Betelgeuse is 3,500 to 3,600 degree Celsius.</li>
+                      <li className="mb-5"><strong>Luminosity:</strong> Variable, but roughly 100,000 times more luminous than the Sun.</li>
+                      <li className="mb-5"><strong>Age:</strong> Around 8 to 8.5 million years old.</li>
+                      <li className="mb-5"><strong>Mass:</strong> Approximately 10 to 20 times the mass of the Sun.</li>
+                      <li className="mb-5"><strong>Notable Characteristics:</strong> One of the largest and brightest stars in the night sky, known for its reddish-orange color; it is a red supergiant nearing the end of its life cycle and is expected to go supernova in the future.</li>
                     </ul>
                   </p>
                 </div>

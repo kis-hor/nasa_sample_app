@@ -37,15 +37,15 @@ const Lacerta = () => {
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl mb-3 text-sky-300">10 Lacerta</h1>
                     <ul>
-                      <li><strong>Constellation:</strong> 10 Lacertae is situated within the boundaries of the Lacerta constellation, a relatively small and faint constellation in the northern celestial hemisphere.</li>
-                      <li><strong>Diameter of Star:</strong> This star is massively big compared to our Sun.</li>
-                      <li><strong>Distance from Earth:</strong> The Distance of 10 Lacerta from earth is estimated to be 410 light years.</li>
-                      <li><strong>Surface temperature:</strong> 10 Lacerta's surface temperature is estimated to be 35,727 degree Celsius</li>
-                      <li><strong>Luminosity:</strong> 10 Lacerta is a bright star as it is fusing its core hydrogen.</li>
-                      <li><strong>Age:</strong> This star was recently born but these star do not have a long lifespan.</li>
-                      <li><strong>Binary System: </strong> The two stars in the 10 Lacertae system are in a binary orbit around a common center of mass. They complete an orbit over a period of several decades.</li>
-                      <li><strong>Spectral Class: </strong> 10 Lacertae is a binary star system with two components. The primary star, 10 Lacertae A, is classified as a K-type giant star, indicating that it is an evolved star in the later stages of its life. The secondary star, 10 Lacertae B, is less massive.</li>
-                      <li><strong>Notable Characteristics: </strong>While 10 Lacertae may not be among the most famous stars in the night sky, it is of interest to astronomers due to its binary nature and its role in advancing our understanding of stellar evolution and the dynamics of double star systems.</li>
+                      <li className="mb-5"><strong>Constellation:</strong> 10 Lacertae is situated within the boundaries of the Lacerta constellation, a relatively small and faint constellation in the northern celestial hemisphere.</li>
+                      <li className="mb-5"><strong>Diameter of Star:</strong> This star is massively big compared to our Sun.</li>
+                      <li className="mb-5"><strong>Distance from Earth:</strong> The Distance of 10 Lacerta from earth is estimated to be 410 light years.</li>
+                      <li className="mb-5"><strong>Surface temperature:</strong> 10 Lacerta's surface temperature is estimated to be 35,727 degree Celsius</li>
+                      <li className="mb-5"><strong>Luminosity:</strong> 10 Lacerta is a bright star as it is fusing its core hydrogen.</li>
+                      <li className="mb-5"><strong>Age:</strong> This star was recently born but these star do not have a long lifespan.</li>
+                      <li className="mb-5"><strong>Binary System: </strong> The two stars in the 10 Lacertae system are in a binary orbit around a common center of mass. They complete an orbit over a period of several decades.</li>
+                      <li className="mb-5"><strong>Spectral Class: </strong> 10 Lacertae is a binary star system with two components. The primary star, 10 Lacertae A, is classified as a K-type giant star, indicating that it is an evolved star in the later stages of its life. The secondary star, 10 Lacertae B, is less massive.</li>
+                      <li className="mb-5"><strong>Notable Characteristics: </strong>While 10 Lacertae may not be among the most famous stars in the night sky, it is of interest to astronomers due to its binary nature and its role in advancing our understanding of stellar evolution and the dynamics of double star systems.</li>
                     </ul>
                   </p>
                 </div>
