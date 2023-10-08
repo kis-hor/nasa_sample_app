@@ -33,17 +33,17 @@ const Sun = () => {
                   The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by nuclear fusion reactions at its core. Part of this internal energy is emitted from its surface as light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth.
                   </p>
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
-                    <h1 className="text-3xl mb-3 text-red-300">Sun</h1>
+                    <h1 className="text-3xl mb-5 text-red-300">Sun</h1>
                     <ul>
-                      <li><strong>Radius of Sun:</strong> The Radius of Sun is 6,96,340 km.</li>
-                      <li><strong>Diameter of Sun:</strong> The Diameter of Sun is 1.3927 million km.</li>
-                      <li><strong>Distance from Earth:</strong> The Distance of Sun from Earth is 149.54 million km.</li>
-                      <li><strong>Surface Temperature:</strong> The Surface temperatur of Sun is 10,000&deg;F</li>
-                      <li><strong>Surface Features:</strong> Sunspots, indicators of disturbed magnetic fields, are the most common features seen in the photosphere. Sunspots are generally surrounded by lighter areas called faculae.</li>
-                      <li><strong>Rotation:</strong> The Sun rotates on its axis once in about 27 days.</li>
-                      <li><strong>Orbit:</strong> the Sun takes about 226 million years to orbit the center of our Galaxy, and it orbits at a speed of about 230 km/s.</li>
-                      <li><strong>Atmosphere:</strong>The Sun contains about 92% hydrogen and 8% helium, with just a tiny bit of the other common elements we find on Earth.</li>
-                      <li><strong>Exploration:</strong> NASA’s Parker Solar Probe is studying our star from closer than any previous spacecraft. On Dec. 14, 2021, NASA announced that Parker had flown through the Sun’s upper atmosphere – the corona – the first time in history that a spacecraft had touched the Sun.</li>
+                      <li className="mb-5"><strong>Radius of Sun:</strong> The Radius of Sun is 6,96,340 km.</li>
+                      <li className="mb-5"><strong>Diameter of Sun:</strong> The Diameter of Sun is 1.3927 million km.</li>
+                      <li className="mb-5"><strong>Distance from Earth:</strong> The Distance of Sun from Earth is 149.54 million km.</li>
+                      <li className="mb-5"><strong>Surface Temperature:</strong> The Surface temperatur of Sun is 10,000&deg;F</li>
+                      <li className="mb-5"><strong>Surface Features:</strong> Sunspots, indicators of disturbed magnetic fields, are the most common features seen in the photosphere. Sunspots are generally surrounded by lighter areas called faculae.</li>
+                      <li className="mb-5"><strong>Rotation:</strong> The Sun rotates on its axis once in about 27 days.</li>
+                      <li className="mb-5"><strong>Orbit:</strong> the Sun takes about 226 million years to orbit the center of our Galaxy, and it orbits at a speed of about 230 km/s.</li>
+                      <li className="mb-5"><strong>Atmosphere:</strong>The Sun contains about 92% hydrogen and 8% helium, with just a tiny bit of the other common elements we find on Earth.</li>
+                      <li className="mb-5"><strong>Exploration:</strong> NASA’s Parker Solar Probe is studying our star from closer than any previous spacecraft. On Dec. 14, 2021, NASA announced that Parker had flown through the Sun’s upper atmosphere – the corona – the first time in history that a spacecraft had touched the Sun.</li>
                     </ul>
                   </p>
                 </div>
