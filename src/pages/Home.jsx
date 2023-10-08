@@ -39,6 +39,7 @@ const Home = () => {
           Explore
         </h3>
         <button
+        onClick={toggleShow}
           type="button"
           className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
           data-modal-hide="defaultModal"
@@ -58,7 +59,7 @@ const Home = () => {
               d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
             />
           </svg>
-          <span className="sr-only">Close modal</span>
+          <span className="sr-only" onClick={toggleShow}>Close modal</span>
         </button>
       </div>
 
@@ -71,7 +72,7 @@ const Home = () => {
           <div className="text-center">
             <a href="/planets">
               <img
-                src="../../../images/planet.jpeg" // Replace with your planet image
+                src="/images/planet.jpeg" // Replace with your planet image
                 alt="Planet"
                 className="w-32 h-32 mx-auto rounded-full"
               />
@@ -87,7 +88,7 @@ const Home = () => {
           <div className="text-center">
             <a href="/stars">
               <img
-                src="../../../images/Emg_SUN.jpeg" // Replace with your star image
+                src="/images/Emg_SUN.jpeg" // Replace with your star image
                 alt="Star"
                 className="w-32 h-32 mx-auto rounded-full"
               />

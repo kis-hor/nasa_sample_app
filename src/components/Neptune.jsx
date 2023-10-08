@@ -11,7 +11,7 @@ const Neptune = () => {
 
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Neptune.gif" alt="Neptune" />
+        <img className="object-cover h-56 w-auto mx-auto" src="/images/Neptune.gif" alt="Neptune" />
           <span className="flex items-center justify-center text-white">Neptune</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto ">
@@ -28,7 +28,7 @@ const Neptune = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Neptune.gif" alt="Neptune" />
+                <img className="object-cover h-56 w-auto mx-auto" src="/images/Neptune.gif" alt="Neptune" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     
                     Neptune is the eighth and farthest known planet from the Sun in our solar system. It is also an icy giant characterized by its stunning blue hue due to methane in its atmosphere. Neptune has a thick atmosphere which features a rapid rotation, completing one day in approximately 16 hours. Additionly, Neptune remains a distant and mysterious world awaiting further exploration.

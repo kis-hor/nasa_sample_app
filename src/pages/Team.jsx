@@ -16,7 +16,7 @@ const Team = () => {
             {/* Team Image */}
             <div className="w-full">
               <img
-                src="../../images/Team copy.jpeg"
+                src="/images/Team copy.jpeg"
                 alt="Team Troubleshooters"
                 style={{width: "2000px", height:"auto", objectFit: "contain", marginLeft: "auto", marginRight: "auto"}}
               />
@@ -60,21 +60,21 @@ const Team = () => {
 
           <div className="grid grid-cols-3 gap-4">
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="w-full" src="../../../public/images/a3ec977a-528f-4c79-90f0-5967336132c9.jpeg" alt="Immanuel Dai"></img>
+              <img className="w-full" src="/images/a3ec977a-528f-4c79-90f0-5967336132c9.jpeg" alt="Immanuel Dai"></img>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/babel_010/?hl=en'>Immanuel Balyakoti</a></div>
                 </div>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="w-full" src="../../../public/images/IMG_3649.jpeg" alt="Aaayusha Singh"></img>
+              <img className="w-full" src="/images/IMG_3649.jpeg" alt="Aaayusha Singh"></img>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/21_aayusha/?hl=en'>Aayusha Singh</a></div>
                 </div>
             </div>
 
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="../../../public/images/IMG_3568.jpeg" alt="Azam"></img>
+            <img className="w-full" src="/images/IMG_3568.jpeg" alt="Azam"></img>
             <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/azamhusain1/?hl=en'>Azam Husain</a></div>
             </div>
@@ -84,21 +84,21 @@ const Team = () => {
 
           <div className="grid grid-cols-3 gap-4 mt-5">
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="w-full" src="../../../public/images/EE14D557-2B38-4158-BA59-8F7515DD7907.jpeg" alt="Bipul Shrestha"></img>
+              <img className="w-full" src="/images/EE14D557-2B38-4158-BA59-8F7515DD7907.jpeg" alt="Bipul Shrestha"></img>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/bipul0_0/?hl=en'>Bipul Shrestha</a></div>
                 </div>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="h-[450px] w-auto mx-auto" src="../../../public/images/IMG_5520.jpg" alt="Kishor Bahadur G.C"></img>
+              <img className="h-[450px] w-auto mx-auto" src="/images/IMG_5520.jpg" alt="Kishor Bahadur G.C"></img>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/kis_hor16/?hl=en'>Kishor Bahadur G.C</a></div>
                 </div>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="w-full" src="../../../public/images/IMG_2936.jpeg" alt="Nimesh Dangi"></img>
+              <img className="w-full" src="/images/IMG_2936.jpeg" alt="Nimesh Dangi"></img>
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2 text-center"><a href='https://www.instagram.com/nimesh.do_n/?hl=en'>Nimesh Dangi</a></div>
                 </div>

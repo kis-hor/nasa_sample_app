@@ -11,7 +11,7 @@ const Earth = () => {
 
     return (
         <div className="border-4 h-64  bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Earth.gif" alt="Earth" />
+        <img className="object-cover h-56 w-auto mx-auto" src="/images/Earth.gif" alt="Earth" />
           <span className="flex items-center justify-center text-white">Earth</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
@@ -28,7 +28,7 @@ const Earth = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Earth.gif" alt="Earth" />
+                <img className="object-cover h-56 w-auto mx-auto" src="/images/Earth.gif" alt="Earth" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify"> 
                   Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water.Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's surface. The remaining 29.2% of Earth's surface is land, most of which is located in the form of continental landmasses within one hemisphere, Earth's land hemisphere.
                   </p>

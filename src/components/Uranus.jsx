@@ -10,7 +10,7 @@ const Uranus = () => {
 
     return(
         <div className="border-4 h-64 bg-black border-black" onClick={toggleShow}>
-        <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Uranus.gif" alt="Uranus" />
+        <img className="object-cover h-56 w-auto mx-auto" src="/images/Uranus.gif" alt="Uranus" />
           <span className="flex items-center justify-center text-white">Uranus</span>
           <div id="defaultModal" tabindex="-1" aria-hidden="true" className={`${show ? "" : " hidden"} fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full backdrop-blur`}>
             <div className="relative w-full max-w-2xl max-h-full h-[50%] mx-auto my-auto">
@@ -27,7 +27,7 @@ const Uranus = () => {
                   </button>
                 </div>
                 <div className="p-6 space-y-6">
-                <img className="object-cover h-56 w-auto mx-auto" src="../../../images/Uranus.gif" alt="Earth" />
+                <img className="object-cover h-56 w-auto mx-auto" src="/images/Uranus.gif" alt="Earth" />
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                   Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant. Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles.Uranus has the third-largest diameter and fourth-largest mass among the Solar System's planets. This planet was discoverd by William Herschel in 13 March 1781.
                   </p>
