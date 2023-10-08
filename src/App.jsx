@@ -14,6 +14,8 @@ import Uranus from './pages/Uranus';
 import Jupiter from './pages/Jupiter';
 import Earth from './pages/Earth';
 import Mercury from './pages/mercury';
+import Planets from './pages/Planets';
+import Stars from './pages/Stars';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/jupiter" element={<Jupiter />} />
         <Route path="/Earth" element={<Earth />} />
         <Route path="/Mercury" element={<Mercury />} />
+        <Route path="/planets" element={<Planets />} />
+        <Route path="/stars" element={<Stars />} />
       </Routes>
     </BrowserRouter>
   )
