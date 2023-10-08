@@ -80,10 +80,8 @@ const Mars = () => {
                     <p>Mars is so famous that even Earth's candy bar, the Mars Bar, decided to name itself after the planet. Apparently, Mars really knows how to make a celestial impression.</p>
             </ul>
         </div>
-        
-        
         {/* Display the fetched images */}
-        <h2 className="text-3xl text-center">Image Gallery</h2>
+        <div className="text-center text-3xl pb-5">Images from Nasa</div>
   
         <div className="grid grid-cols-3 gap-4 lg:p-12 p-6 bg-black">
             {images.map((item, index) => (

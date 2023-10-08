@@ -16,6 +16,7 @@ import Earth from './pages/Earth';
 import Mercury from './pages/mercury';
 import Planets from './pages/Planets';
 import Stars from './pages/Stars';
+import Team from './pages/Team';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/Mercury" element={<Mercury />} />
         <Route path="/planets" element={<Planets />} />
         <Route path="/stars" element={<Stars />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   )
