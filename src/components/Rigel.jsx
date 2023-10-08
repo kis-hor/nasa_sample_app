@@ -35,17 +35,17 @@ const Rigel = () => {
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl mb-3 text-sky-400">Rigel</h1>
                     <ul>
-                      <li><strong>Name:</strong> Rigel is also known as Beta Orionis, symbolizing its status as the second-brightest star in the constellation Orion.</li>
-                      <li><strong>Brightness:</strong> Rigel is one of the brightest stars in the night sky and is classified as a blue supergiant. It has an apparent magnitude of approximately 0.12, making it the brightest star in the constellation Orion.</li>
-                      <li><strong>Distance:</strong> Rigel is located about 860 light-years away from Earth, making it a relatively distant star.</li>
-                      <li><strong>Color:</strong>  It appears blue-white in color due to its high temperature and spectral classification as a B-type supergiant.</li>
-                      <li><strong>Size:</strong> Rigel is a massive star with a radius estimated to be around 70 times that of the Sun. It is approximately 21 times more massive than the Sun.</li>
-                      <li><strong>Luminosity:</strong>  Rigel is an extremely luminous star, radiating around 120,000 times the luminosity of the Sun.</li>
-                      <li><strong>Binary System:</strong> Rigel is a binary star system, consisting of a primary star (Rigel A) and a companion (Rigel B). Rigel A is the brighter of the two.</li>
-                      <li><strong>Navigation:</strong> Rigel is an important navigational star for observers in the northern hemisphere. It is used as a reference point for locating other celestial objects in the night sky, especially within the constellation Orion.</li>
-                      <li><strong>Cultural Significance:</strong>  Rigel has cultural and historical significance in various civilizations, including ancient Middle Eastern and Greek cultures, where it was associated with the mythology and lore of Orion the Hunter.</li>
-                      <li><strong>Astronomical Studies:</strong>  Astronomers study Rigel to learn more about the life cycle of massive stars, their evolution, and their role in the formation of elements through nuclear fusion.</li>
-                      <li><strong>Future Evolution:</strong> Rigel is expected to eventually end its life in a supernova explosion, which will be a spectacular event visible from Earth.</li>
+                      <li className="mb-5"><strong>Name:</strong> Rigel is also known as Beta Orionis, symbolizing its status as the second-brightest star in the constellation Orion.</li>
+                      <li className="mb-5"><strong>Brightness:</strong> Rigel is one of the brightest stars in the night sky and is classified as a blue supergiant. It has an apparent magnitude of approximately 0.12, making it the brightest star in the constellation Orion.</li>
+                      <li className="mb-5"><strong>Distance:</strong> Rigel is located about 860 light-years away from Earth, making it a relatively distant star.</li>
+                      <li className="mb-5"><strong>Color:</strong>  It appears blue-white in color due to its high temperature and spectral classification as a B-type supergiant.</li>
+                      <li className="mb-5"><strong>Size:</strong> Rigel is a massive star with a radius estimated to be around 70 times that of the Sun. It is approximately 21 times more massive than the Sun.</li>
+                      <li className="mb-5"><strong>Luminosity:</strong>  Rigel is an extremely luminous star, radiating around 120,000 times the luminosity of the Sun.</li>
+                      <li className="mb-5"><strong>Binary System:</strong> Rigel is a binary star system, consisting of a primary star (Rigel A) and a companion (Rigel B). Rigel A is the brighter of the two.</li>
+                      <li className="mb-5"><strong>Navigation:</strong> Rigel is an important navigational star for observers in the northern hemisphere. It is used as a reference point for locating other celestial objects in the night sky, especially within the constellation Orion.</li>
+                      <li className="mb-5"><strong>Cultural Significance:</strong>  Rigel has cultural and historical significance in various civilizations, including ancient Middle Eastern and Greek cultures, where it was associated with the mythology and lore of Orion the Hunter.</li>
+                      <li className="mb-5"><strong>Astronomical Studies:</strong>  Astronomers study Rigel to learn more about the life cycle of massive stars, their evolution, and their role in the formation of elements through nuclear fusion.</li>
+                      <li className="mb-5"><strong>Future Evolution:</strong> Rigel is expected to eventually end its life in a supernova explosion, which will be a spectacular event visible from Earth.</li>
                     </ul>
                   </p>
                 </div>

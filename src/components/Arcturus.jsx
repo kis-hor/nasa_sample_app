@@ -35,17 +35,17 @@ const Arcturus = () => {
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl mb-3 text-orange-500">Arcturus</h1>
                     <ul>
-                      <li><strong>Name:</strong> Arcturus is also known as Alpha Boötis, signifying its status as the brightest star in the constellation Boötes.</li>
-                      <li><strong>Brightness:</strong> It is the fourth-brightest star in the night sky, with an apparent magnitude of approximately -0.05, making it one of the most prominent stars visible from Earth.</li>
-                      <li><strong>Distance:</strong> Arcturus is relatively close to us, located at a distance of about 36.7 light-years from Earth.</li>
-                      <li><strong>Color:</strong> It appears distinctly orange or red-orange due to its spectral classification as a K-type giant or subgiant star.</li>
-                      <li><strong>Size:</strong> Arcturus is a large star with a radius estimated to be around 25 times that of the Sun.</li>
-                      <li><strong>Luminosity:</strong> It is moderately luminous, radiating around 170 times the luminosity of the Sun.</li>
-                      <li><strong>Proper Motion:</strong> Arcturus has a relatively high proper motion, which means it moves noticeably against the background of more distant stars over time.</li>
-                      <li><strong>Navigation:</strong> Arcturus is a prominent navigational star and is often used for celestial navigation. It is part of the "Spring Triangle" asterism, along with Spica and Regulus.</li>
-                      <li><strong>Astronomical Studies:</strong> Arcturus has been studied by astronomers to understand its properties and evolution as a giant star.</li>
-                      <li><strong>Cultural Significance:</strong> In various cultures, Arcturus has been recognized and featured in mythology and folklore. For example, it was associated with the Greek mythological figure Boötes, the herdsman.</li>
-                      <li><strong>Future Evolution:</strong> Arcturus is nearing the end of its life cycle and is expected to evolve into a red giant star before eventually shedding its outer layers and becoming a white dwarf.</li>
+                      <li className="mb-5"><strong>Name:</strong> Arcturus is also known as Alpha Boötis, signifying its status as the brightest star in the constellation Boötes.</li>
+                      <li className="mb-5"><strong>Brightness:</strong> It is the fourth-brightest star in the night sky, with an apparent magnitude of approximately -0.05, making it one of the most prominent stars visible from Earth.</li>
+                      <li className="mb-5"><strong>Distance:</strong> Arcturus is relatively close to us, located at a distance of about 36.7 light-years from Earth.</li>
+                      <li className="mb-5"><strong>Color:</strong> It appears distinctly orange or red-orange due to its spectral classification as a K-type giant or subgiant star.</li>
+                      <li className="mb-5"><strong>Size:</strong> Arcturus is a large star with a radius estimated to be around 25 times that of the Sun.</li>
+                      <li className="mb-5"><strong>Luminosity:</strong> It is moderately luminous, radiating around 170 times the luminosity of the Sun.</li>
+                      <li className="mb-5"><strong>Proper Motion:</strong> Arcturus has a relatively high proper motion, which means it moves noticeably against the background of more distant stars over time.</li>
+                      <li className="mb-5"><strong>Navigation:</strong> Arcturus is a prominent navigational star and is often used for celestial navigation. It is part of the "Spring Triangle" asterism, along with Spica and Regulus.</li>
+                      <li className="mb-5"><strong>Astronomical Studies:</strong> Arcturus has been studied by astronomers to understand its properties and evolution as a giant star.</li>
+                      <li className="mb-5"><strong>Cultural Significance:</strong> In various cultures, Arcturus has been recognized and featured in mythology and folklore. For example, it was associated with the Greek mythological figure Boötes, the herdsman.</li>
+                      <li className="mb-5"><strong>Future Evolution:</strong> Arcturus is nearing the end of its life cycle and is expected to evolve into a red giant star before eventually shedding its outer layers and becoming a white dwarf.</li>
                     </ul>
                   </p>
                 </div>

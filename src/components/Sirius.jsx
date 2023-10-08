@@ -35,17 +35,17 @@ const Sirius = () => {
                   <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 text-justify">
                     <h1 className="text-3xl mb-3 text-sky-300">Sirius</h1>
                     <ul>
-                      <li><strong>Name:</strong> Sirius is also known as Alpha Canis Majoris, indicating its status as the brightest star in the constellation Canis Major.</li>
-                      <li><strong>Brightness:</strong> It is the brightest star in the night sky with an apparent magnitude of -1.46, making it almost 25 times more luminous than the Sun.</li>
-                      <li><strong>Distance:</strong> Sirius is relatively close to Earth, at a distance of approximately 8.6 light-years, making it one of our nearest stellar neighbors.</li>
-                      <li><strong>Color:</strong> It appears bluish-white in color due to its high temperature and spectral classification as an A-type main-sequence star.</li>
-                      <li><strong>Binary System:</strong> Sirius is a binary star system consisting of two stars: Sirius A and Sirius B. Sirius A is the more massive and brighter component, while Sirius B is a faint white dwarf companion.</li>
-                      <li><strong>Dog Star:</strong>In ancient cultures, Sirius was often referred to as the "Dog Star" because of its prominent position in the constellation Canis Major, which is often depicted as a dog.</li>
-                      <li><strong>Helical Rising:</strong> The heliacal rising of Sirius, its first visible appearance just before sunrise, was used by ancient Egyptians to mark the beginning of the annual flooding of the Nile River, a critical event for their agriculture and calendar.</li>
-                      <li><strong>Navigation:</strong> Sirius is used for navigation in both ancient and modern times. It is part of the Winter Triangle, an asterism that helps observers locate other celestial objects in the winter night sky.</li>
-                      <li><strong>Scientific Studies:</strong>Sirius has been studied extensively by astronomers, and its properties have contributed to our understanding of stellar evolution, binary star systems, and white dwarf stars.</li>
-                      <li><strong>Cultural Significance:</strong>  Sirius has cultural significance in various societies, including ancient Egyptian, Greek, and Indigenous cultures, where it often held a special place in mythology and calendars.</li>
-                      <li><strong>Future Evolution:</strong> Sirius A will eventually exhaust its nuclear fuel and become a white dwarf, while Sirius B has already reached this stage.</li>
+                      <li className="mb-5"><strong>Name:</strong> Sirius is also known as Alpha Canis Majoris, indicating its status as the brightest star in the constellation Canis Major.</li>
+                      <li className="mb-5"><strong>Brightness:</strong> It is the brightest star in the night sky with an apparent magnitude of -1.46, making it almost 25 times more luminous than the Sun.</li>
+                      <li className="mb-5"><strong>Distance:</strong> Sirius is relatively close to Earth, at a distance of approximately 8.6 light-years, making it one of our nearest stellar neighbors.</li>
+                      <li className="mb-5"><strong>Color:</strong> It appears bluish-white in color due to its high temperature and spectral classification as an A-type main-sequence star.</li>
+                      <li className="mb-5"><strong>Binary System:</strong> Sirius is a binary star system consisting of two stars: Sirius A and Sirius B. Sirius A is the more massive and brighter component, while Sirius B is a faint white dwarf companion.</li>
+                      <li className="mb-5"><strong>Dog Star:</strong>In ancient cultures, Sirius was often referred to as the "Dog Star" because of its prominent position in the constellation Canis Major, which is often depicted as a dog.</li>
+                      <li className="mb-5"><strong>Helical Rising:</strong> The heliacal rising of Sirius, its first visible appearance just before sunrise, was used by ancient Egyptians to mark the beginning of the annual flooding of the Nile River, a critical event for their agriculture and calendar.</li>
+                      <li className="mb-5"><strong>Navigation:</strong> Sirius is used for navigation in both ancient and modern times. It is part of the Winter Triangle, an asterism that helps observers locate other celestial objects in the winter night sky.</li>
+                      <li className="mb-5"><strong>Scientific Studies:</strong>Sirius has been studied extensively by astronomers, and its properties have contributed to our understanding of stellar evolution, binary star systems, and white dwarf stars.</li>
+                      <li className="mb-5"><strong>Cultural Significance:</strong>  Sirius has cultural significance in various societies, including ancient Egyptian, Greek, and Indigenous cultures, where it often held a special place in mythology and calendars.</li>
+                      <li className="mb-5"><strong>Future Evolution:</strong> Sirius A will eventually exhaust its nuclear fuel and become a white dwarf, while Sirius B has already reached this stage.</li>
                     </ul>
                   </p>
                 </div>
