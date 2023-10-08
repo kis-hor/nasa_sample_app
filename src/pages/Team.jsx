@@ -55,10 +55,10 @@ const Team = () => {
             <ul className="list-disc pl-6 flex flex-col items-center ">
               <li className="text-lg text-blue-500 font-medium"><a href='https://www.instagram.com/babel_010/?hl=en'>Immanuel Balyakoti</a></li>
               <li className="text-lg text-green-500 font-medium"><a href='https://www.instagram.com/21_aayusha/?hl=en'>Aayusha Singh</a></li>
-              <li className="text-lg text-red-500 font-medium"><a href='https://www.instagram.com/azamhusain1/?hl=en'>Azam Hussain</a></li>
+              <li className="text-lg text-pink-500 font-medium"><a href='https://www.instagram.com/azamhusain1/?hl=en'>Azam Hussain</a></li>
               <li className="text-lg text-indigo-500 font-medium"><a href='https://www.instagram.com/kis_hor16/?hl=en'>Kishor Bahadur GC</a></li>
               <li className="text-lg text-purple-500 font-medium"><a href='https://www.instagram.com/nimesh.do_n/?hl=en'>Nimesh Dangi</a></li>
-              <li className="text-lg text-pink-500 font-medium"><a href='https://www.instagram.com/bipul0_0/?hl=en'>Bipul Shrestha</a></li>
+              <li className="text-lg text-red-500 font-medium"><a href='https://www.instagram.com/bipul0_0/?hl=en'>Bipul Shrestha</a></li>
             </ul>
 
             </div>
